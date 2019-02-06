@@ -9,8 +9,8 @@ if [ "$ARCH" = amd64 -o "$ARCH" = i386 ]; then
 else
   REPO=http://ports.ubuntu.com/ubuntu-ports
 fi
-wget -N $REPO/pool/universe/g/glfw3/libglfw3_3.0.4-1_${ARCH}.deb
-wget -N $REPO/pool/universe/g/glfw3/libglfw3-dev_3.0.4-1_${ARCH}.deb
+wget -N $REPO/pool/universe/g/glfw3/libglfw3_3.1.2-3_${ARCH}.deb
+wget -N $REPO/pool/universe/g/glfw3/libglfw3-dev_3.1.2-3_${ARCH}.deb
 
 cat <<-EOT
 
